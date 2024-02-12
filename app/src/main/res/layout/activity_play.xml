@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/actual_game_background"
+    android:orientation="vertical"
+    tools:context=".activities.PlayActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quinque_five"
+            android:padding="@dimen/_8sdp"
+            android:text="Life"
+            android:textSize="@dimen/_9ssp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:layout_weight="1"
+            android:max="100"
+            android:progress="0"
+            android:scaleY="5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quinque_five"
+            android:gravity="center"
+            android:padding="@dimen/_8sdp"
+            android:text="Score"
+            android:textSize="@dimen/_9ssp" />
+
+        <TextView
+            android:id="@+id/tvItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/the_bomb_sound"
+            android:gravity="center"
+            android:padding="@dimen/_8sdp"
+            android:text="0"
+            android:textAllCaps="true"
+            android:textColor="@color/off_white"
+            android:textSize="@dimen/_15ssp" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/startLabel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/up_heavtt"
+            android:gravity="center"
+            android:text="Tap to Start"
+            android:textColor="@color/dark_blue"
+            android:textSize="@dimen/_30ssp" />
+
+        <ImageView
+            android:id="@+id/recycleBin"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_margin="@dimen/_8sdp"
+            android:src="@drawable/blue_bin_512px" />
+
+        <ImageView
+            android:id="@+id/recyclable"
+            android:layout_width="@dimen/_48sdp"
+            android:layout_height="@dimen/_48sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/newspaper_128px" />
+
+        <ImageView
+            android:id="@+id/recyclable2"
+            android:layout_width="@dimen/_48sdp"
+            android:layout_height="@dimen/_48sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/box_128px" />
+
+        <ImageView
+            android:id="@+id/nonRecyclable"
+            android:layout_width="@dimen/_48sdp"
+            android:layout_height="@dimen/_48sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/egg_shell_128px" />
+
+        <ImageView
+            android:id="@+id/nonRecyclable2"
+            android:layout_width="@dimen/_48sdp"
+            android:layout_height="@dimen/_48sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/apple_128px" />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/minigame_icon_white_512px"
+        android:id="@+id/iGame"
+        android:title="Mini Game" />
+
+    <item android:icon="@drawable/home_white_512px"
+        android:id="@+id/iHome"
+        android:title="Home" />
+
+    <item android:icon="@drawable/todo_list_white_512px"
+        android:id="@+id/iTodo"
+        android:title="ToDos" />
+</menu>

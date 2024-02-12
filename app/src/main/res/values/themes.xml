@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EcoQuest" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/dark_blue</item>
+    </style>
+
+    <style name="Theme.EcoQuest" parent="Base.Theme.EcoQuest" />
+
+    <style name="BottomNavigationViewStyle" parent="Widget.Design.BottomNavigationView">
+        <item name="android:itemBackground">@drawable/active_item_indicator</item>
+        <item name="itemActiveIndicatorStyle">@style/ActiveItemIndicator</item>
+    </style>
+
+    <style name="ActiveItemIndicator">
+        <item name="android:background">@drawable/active_item_indicator</item>
+    </style>
+
+</resources>

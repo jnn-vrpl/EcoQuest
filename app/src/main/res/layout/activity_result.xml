@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ResultActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/actual_game_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnHow"
+            android:layout_width="@dimen/_240sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:padding="@dimen/_8sdp"
+            android:backgroundTint="@color/red"
+            android:fontFamily="@font/up_heavtt"
+            android:text="Game over"
+            android:textAllCaps="true"
+            android:textSize="@dimen/_25ssp" />
+
+        <TextView
+            android:id="@+id/tvItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/the_bomb_sound"
+            android:gravity="center"
+            android:padding="@dimen/_24sdp"
+            android:text="10"
+            android:textAllCaps="true"
+            android:textColor="@color/off_white"
+            android:textSize="@dimen/_96ssp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quinque_five"
+            android:gravity="center"
+            android:padding="@dimen/_24sdp"
+            android:text="recyclables\ncollected"
+            android:textAllCaps="true"
+            android:textColor="@color/dark_blue"
+            android:textSize="@dimen/_20ssp" />
+
+        <Button
+            android:id="@+id/btnReplay"
+            android:layout_width="@dimen/_240sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="@font/quinque_five"
+            android:text="Replay"
+            android:textAllCaps="true"
+            android:textSize="@dimen/_11ssp" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="@dimen/_240sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_8sdp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="@font/quinque_five"
+            android:text="back"
+            android:textAllCaps="true"
+            android:textSize="@dimen/_11ssp" />
+
+    </LinearLayout>
+
+</FrameLayout>
