@@ -1,5 +1,5 @@
 # EcoQuest
-![Alt text](ecoquest_wo_bg_512px.png)
+![Alt text](EcoQuest_icon_without-bg.png)
  A Game-based, Habit-Building Android Mobile Application for Solid Waste Management
 
 # Installation Instructions
